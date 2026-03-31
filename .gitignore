@@ -1,0 +1,29 @@
+# 忽略数据集文件夹
+dataset/
+
+
+# 忽略模型权重文件
+*.pth
+*.pth.tar
+*.pt
+*.bin
+*.ckpt
+*.h5
+checkpoints/
+
+# 忽略日志、缓存、运行文件
+logs/
+runs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.DS_Store
+
+# 忽略其他模型
+iTransformer-main/
+mamba-main/
+ml-sharp/
+river_segmentation/
+TCN/
